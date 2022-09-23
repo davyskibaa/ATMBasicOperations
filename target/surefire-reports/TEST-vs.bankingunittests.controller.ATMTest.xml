@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="vs.bankingunittests.controller.ATMTest" time="0.687" tests="15" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\DEV\NetBeansProjects\BankingUnitTests\target\test-classes;C:\DEV\NetBeansProjects\BankingUnitTests\target\classes;C:\Users\vasou\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.2.0\junit-jupiter-engine-5.2.0.jar;C:\Users\vasou\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\vasou\.m2\repository\org\junit\platform\junit-platform-engine\1.2.0\junit-platform-engine-1.2.0.jar;C:\Users\vasou\.m2\repository\org\junit\platform\junit-platform-commons\1.2.0\junit-platform-commons-1.2.0.jar;C:\Users\vasou\.m2\repository\org\opentest4j\opentest4j\1.1.0\opentest4j-1.1.0.jar;C:\Users\vasou\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.2.0\junit-jupiter-api-5.2.0.jar;"/>
+    <property name="java.vm.vendor" value="Azul Systems, Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://www.azulsystems.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="user.country.format" value="GR"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Zulu\zulu-8\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\vasou\AppData\Local\Temp\surefire6053711669206692070\surefirebooter4905626125152832884.jar C:\Users\vasou\AppData\Local\Temp\surefire6053711669206692070 2018-07-11T23-45-53_299-jvmRun1 surefire8652147872176842637tmp surefire_05492920799786166307tmp"/>
+    <property name="surefire.test.class.path" value="C:\DEV\NetBeansProjects\BankingUnitTests\target\test-classes;C:\DEV\NetBeansProjects\BankingUnitTests\target\classes;C:\Users\vasou\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.2.0\junit-jupiter-engine-5.2.0.jar;C:\Users\vasou\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\vasou\.m2\repository\org\junit\platform\junit-platform-engine\1.2.0\junit-platform-engine-1.2.0.jar;C:\Users\vasou\.m2\repository\org\junit\platform\junit-platform-commons\1.2.0\junit-platform-commons-1.2.0.jar;C:\Users\vasou\.m2\repository\org\opentest4j\opentest4j\1.1.0\opentest4j-1.1.0.jar;C:\Users\vasou\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.2.0\junit-jupiter-api-5.2.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\vasou"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Zulu\zulu-8\jre"/>
+    <property name="basedir" value="C:\DEV\NetBeansProjects\BankingUnitTests"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\vasou\AppData\Local\Temp\surefire6053711669206692070\surefirebooter4905626125152832884.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Zulu\zulu-8\jre\lib\resources.jar;C:\Program Files\Zulu\zulu-8\jre\lib\rt.jar;C:\Program Files\Zulu\zulu-8\jre\lib\sunrsasign.jar;C:\Program Files\Zulu\zulu-8\jre\lib\jsse.jar;C:\Program Files\Zulu\zulu-8\jre\lib\jce.jar;C:\Program Files\Zulu\zulu-8\jre\lib\charsets.jar;C:\Program Files\Zulu\zulu-8\jre\lib\jfr.jar;C:\Program Files\Zulu\zulu-8\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_163-b01"/>
+    <property name="user.name" value="vasou"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Zulu\zulu-8\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\vasou\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://www.azulsystems.com/support/"/>
+    <property name="java.io.tmpdir" value="C:\Users\vasou\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_163"/>
+    <property name="user.dir" value="C:\DEV\NetBeansProjects\BankingUnitTests"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="user.language.format" value="el"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Zulu\zulu-8\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\vasou\Desktop\cmder_mini\bin;C:\Users\vasou\Desktop\cmder_mini\vendor\conemu-maximus5\ConEmu\Scripts;C:\Users\vasou\Desktop\cmder_mini\vendor\conemu-maximus5;C:\Users\vasou\Desktop\cmder_mini\vendor\conemu-maximus5\ConEmu;C:\Program Files\Docker\Docker\Resources\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Zulu\zulu-8\bin;C:\DEV\apache-maven-3.5.4\bin;C:\DEV\gradle-4.8\bin;C:\Program Files\nodejs\;C:\Program Files\Zulu\zulu-8\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Microsoft VS Code\bin;C:\Users\vasou\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\Microsoft VS Code\bin;C:\Users\vasou\AppData\Roaming\npm;C:\Users\vasou\AppData\Local\Yarn\bin;C:\Program Files\Heroku\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\share\vim\vim74;C:\Users\vasou\Desktop\cmder_mini\;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Azul Systems, Inc."/>
+    <property name="java.vm.version" value="25.163-b01"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Zulu\zulu-8\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="withdraw_regular_account_zero_amount" classname="vs.bankingunittests.controller.ATMTest" time="0.089"/>
+  <testcase name="transfer_regular_source_limited_target_zero_amount" classname="vs.bankingunittests.controller.ATMTest" time="0"/>
+  <testcase name="withdraw_regular_account_normal_amount" classname="vs.bankingunittests.controller.ATMTest" time="0.042"/>
+  <testcase name="deposit_limited_account_amount_below_limit" classname="vs.bankingunittests.controller.ATMTest" time="0.045"/>
+  <testcase name="withdraw_regular_account_amount_more_than_balance" classname="vs.bankingunittests.controller.ATMTest" time="0"/>
+  <testcase name="withdraw_regular_account_amount_exactly_balance" classname="vs.bankingunittests.controller.ATMTest" time="0.042"/>
+  <testcase name="transfer_regular_source_regular_target_normal_amount" classname="vs.bankingunittests.controller.ATMTest" time="0.08"/>
+  <testcase name="deposit_regular_account_some_amount" classname="vs.bankingunittests.controller.ATMTest" time="0"/>
+  <testcase name="transfer_regular_source_regular_target_amount_more_than_balance" classname="vs.bankingunittests.controller.ATMTest" time="0"/>
+  <testcase name="deposit_limited_account_zero_amount" classname="vs.bankingunittests.controller.ATMTest" time="0.046"/>
+  <testcase name="deposit_limited_account_amount_at_limit" classname="vs.bankingunittests.controller.ATMTest" time="0.047"/>
+  <testcase name="deposit_limited_account_amount_above_limit" classname="vs.bankingunittests.controller.ATMTest" time="0"/>
+  <testcase name="withdraw_limited_account_zero_amount" classname="vs.bankingunittests.controller.ATMTest" time="0.045"/>
+  <testcase name="deposit_regular_account_zero_amount" classname="vs.bankingunittests.controller.ATMTest" time="0"/>
+  <testcase name="transfer_regular_source_regular_target_zero_amount" classname="vs.bankingunittests.controller.ATMTest" time="0.169"/>
+</testsuite>
